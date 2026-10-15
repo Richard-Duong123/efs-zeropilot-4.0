@@ -2,7 +2,7 @@
 #include <cstdint>
 
 struct SpiCommonDevice_t {
-    GPIO_TypeDef* csGpioBase, 
+    GPIO_TypeDef* csGPIOPort, 
     uint16_t csGPIOpin, 
     SPI_HandleTypeDef *hspi
 };
